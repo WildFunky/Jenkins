@@ -61,4 +61,12 @@
         </dependency>
 
     </dependencies>
+    <build>
+        <resources>
+            <resource>
+                <filtering>false</filtering>
+                <directory>src/resources</directory>
+            </resource>
+        </resources>
+    </build>
 </project>
